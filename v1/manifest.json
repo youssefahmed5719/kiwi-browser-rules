@@ -1,0 +1,68 @@
+{
+ "schema": 1,
+ "version": 2026110700,
+ "createdAt": "2026-11-07T00:17:56Z",
+ "expiresAt": "2027-01-06T00:17:56Z",
+ "lists": [
+  {
+   "id": "core",
+   "category": "core",
+   "priority": 40,
+   "ruleCount": 2215,
+   "file": "core.json",
+   "sha256": "1da0b7a8653cf82cb580e1698267adcfb8bdcfde76afbcbe45fc45655bf8c13b",
+   "bytes": 525830
+  },
+  {
+   "id": "ads",
+   "category": "ads",
+   "priority": 30,
+   "ruleCount": 59072,
+   "file": "ads.json",
+   "sha256": "bb832ac6f74a6bebed682c304a95529ce3103d872398c611cffc6655354f8ca6",
+   "bytes": 8301728
+  },
+  {
+   "id": "privacy",
+   "category": "privacy",
+   "priority": 20,
+   "ruleCount": 57750,
+   "file": "privacy.json",
+   "sha256": "794495abeaa5101aad96e013316a20f480b65f8c28c1082e0455190943f5e83b",
+   "bytes": 10619075
+  },
+  {
+   "id": "cosmetic-generic",
+   "category": "cosmetic",
+   "priority": 10,
+   "ruleCount": 477,
+   "file": "cosmetic-generic.json",
+   "sha256": "8099485513d1b222b1fbd27d96b3e9aed9957d8be2dd9801adf1ef067d0b7329",
+   "bytes": 274979
+  },
+  {
+   "id": "cosmetic-sites",
+   "category": "cosmetic",
+   "priority": 11,
+   "ruleCount": 5324,
+   "file": "cosmetic-sites.json",
+   "sha256": "cb77b5ce05a591f534c958c7485122622b6a64a09da4f9c51e168cb2313a44d0",
+   "bytes": 918190
+  }
+ ],
+ "data": [
+  {
+   "id": "ad-hosts",
+   "file": "ad-hosts.txt",
+   "sha256": "c785de75d99d66dcb5f5aeda2910a05abf58fa3bfce8d67f323fb7661517e1b3",
+   "bytes": 894713
+  },
+  {
+   "id": "site-fixes",
+   "file": "site-fixes.json",
+   "sha256": "586cf2b94921a7bce44757d439f0a7c4e61d6320da43547a235f56b47f076fa0",
+   "bytes": 719
+  }
+ ],
+ "notices": "Derived from EasyList and EasyPrivacy (https://easylist.to), dual licensed under GPLv3 and CC BY-SA 3.0."
+}
